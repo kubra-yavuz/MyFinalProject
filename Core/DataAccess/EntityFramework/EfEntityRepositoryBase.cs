@@ -1,8 +1,10 @@
-﻿using System.Linq.Expressions;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System;
+using System.Linq.Expressions;
 using Core.Entities;
 using Microsoft.EntityFrameworkCore;
-
-
 
 namespace Core.DataAccess.EntityFramework
 {
@@ -10,9 +12,9 @@ namespace Core.DataAccess.EntityFramework
 		where TEntity: class, IEntity, new()
 		where TContext: DbContext,new()
 	{
-        public void Add(Product entity)
+        public void Add(TEntity entity)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (TContext context = new TContext())
             {
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
@@ -20,9 +22,9 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public void Delete(Product entity)
+        public void Delete(TEntity entity)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (TContext context = new TContext())
             {
                 var deletedEntity = context.Entry(entity);
                 deletedEntity.State = EntityState.Deleted;
@@ -30,25 +32,25 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public Product Get(Expression<Func<Product, bool>> filter = null)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (TContext context = new TContext())
             {
-                return context.Set<Product>().SingleOrDefault(filter);
+                return context.Set<TEntity>().SingleOrDefault(filter);
             }
         }
 
-        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (TContext context = new TContext())
             {
-                return filter == null ? context.Set<Product>().ToList() : context.Set<Product>().Where(filter).ToList();
+                return filter == null ? context.Set<TEntity>().ToList() : context.Set<TEntity>().Where(filter).ToList();
             }
         }
 
-        public void Update(Product entity)
+        public void Update(TEntity entity)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (TContext context = new TContext())
             {
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;
