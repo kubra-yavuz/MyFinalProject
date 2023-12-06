@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "04wEfgw7MxoeOOxeTul107Xpca/q5zA+4QumPTumGOc6/FnyYW/KKAgqsYeCnVdgBZgvmPtWIXeLg9F69TDQPw==",
+  "dgSpecHash": "Ca/lnUMB1USxCfB0WA6bkzMbS/I6y4TOBh7bB+qNFqrIpm+P3+l9rvP+Hg/9nKZZSzABAoggE0SYcVEPvFe82w==",
   "success": true,
   "projectFilePath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore/7.0.14/microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.14/microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
+    "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.14/microsoft.entityframeworkcore.inmemory.7.0.14.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.14/microsoft.entityframeworkcore.relational.7.0.14.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.14/microsoft.entityframeworkcore.sqlserver.7.0.14.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
