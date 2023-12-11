@@ -47,7 +47,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.1.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
@@ -56,6 +56,10 @@
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
             }
           },
           "imports": [

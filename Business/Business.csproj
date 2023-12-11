@@ -11,20 +11,28 @@
     <None Remove="Concrete\" />
     <None Remove="Constants\" />
     <None Remove="DependencyResolvers\" />
+    <None Remove="DependencyResolvers\Autofac\" />
+    <None Remove="ValidationRules\" />
+    <None Remove="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
     <Folder Include="Constants\" />
     <Folder Include="DependencyResolvers\" />
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="DependencyResolvers\Autofac\" />
+    <Folder Include="ValidationRules\" />
+    <Folder Include="ValidationRules\FluentValidation\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac" Version="7.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
   </ItemGroup>
 </Project>

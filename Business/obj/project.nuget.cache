@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "V81zkrqOfssoHCPu06+hwPXf35c8ZMX4LiDvTVOHuNdr0HcnBz9ObMofmgPuJqpuRxPBmCdSJTWEW82cF9EZKQ==",
+  "dgSpecHash": "d/weep1ZWM2/5a46gv1FLC3+AnPu8jmLSHWtHiOoWQdLv6T27Pr9U18RxrRlkba4bM0NGvFPa1mbml92YwRAwg==",
   "success": true,
   "projectFilePath": "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj",
   "expectedPackageFiles": [
-    "/Users/kubranuryavuz/.nuget/packages/autofac/7.0.1/autofac.7.0.1.nupkg.sha512",
+    "/Users/kubranuryavuz/.nuget/packages/autofac/7.1.0/autofac.7.1.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/kubranuryavuz/.nuget/packages/fluentvalidation/11.8.1/fluentvalidation.11.8.1.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/kubranuryavuz/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",

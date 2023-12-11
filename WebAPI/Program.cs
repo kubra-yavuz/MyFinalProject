@@ -6,8 +6,28 @@ using Business.DependencyResolvers;
 using Core.DataAccess;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using Microsoft.AspNetCore.Hosting;
 
-internal class Program
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+    Host.CreateDefaultBuilder(args)
+        .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+        .ConfigureContainer<ContainerBuilder>(builder =>
+        {
+            builder.RegisterModule(new AutofacBusinessModule());
+        })
+        .ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseStartup<Startup>();
+        });
+}
+/*internal class Program
 {
     private static void Main(string[] args)
     {
@@ -50,7 +70,7 @@ internal class Program
         app.Run();
     }
 }
-
+*/
 //using Autofac;
 //using Microsoft.AspNetCore.Hosting;
 //using Microsoft.Extensions.Hosting;

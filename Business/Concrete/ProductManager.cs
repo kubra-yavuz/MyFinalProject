@@ -22,10 +22,14 @@ namespace Business.Concrete
 
         public IResult Add(Product product)
         {
-            /*if (product.ProductName.Length<2)
+            if (product.UnitPrice <= 0)
+            {
+                return new ErrorResult(Messages.UnitPriceInvalid);
+            }
+            if (product.ProductName.Length<2)
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
-            }*/
+            }
 
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded) ;
