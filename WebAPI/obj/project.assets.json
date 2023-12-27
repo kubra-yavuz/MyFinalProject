@@ -1210,6 +1210,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Autofac": "7.1.0",
+          "Autofac.Extras.DynamicProxy": "7.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
         "compile": {
@@ -3436,11 +3438,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/WebAPI/WebAPI.csproj",
+      "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/WebAPI/WebAPI.csproj",
       "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-      "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/WebAPI/obj/",
+      "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -3449,24 +3451,24 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj": {
-              "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj"
+            "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj": {
+              "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj"
             },
-            "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj": {
-              "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj"
+            "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj": {
+              "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj"
             },
-            "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj"
+            "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj"
             },
-            "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj": {
-              "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj"
+            "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj": {
+              "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj"
             }
           }
         }
@@ -3509,7 +3511,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }

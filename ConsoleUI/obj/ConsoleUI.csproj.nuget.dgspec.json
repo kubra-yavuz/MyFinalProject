@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kubranuryavuz/Projects/FinalProject/ConsoleUI/ConsoleUI.csproj": {}
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/ConsoleUI/ConsoleUI.csproj": {}
   },
   "projects": {
-    "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj": {
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj",
+        "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj",
+        "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj",
         "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-        "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/Business/obj/",
+        "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj"
               },
-              "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj"
               }
             }
           }
@@ -78,18 +78,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kubranuryavuz/Projects/FinalProject/ConsoleUI/ConsoleUI.csproj": {
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/ConsoleUI/ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/ConsoleUI/ConsoleUI.csproj",
+        "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/ConsoleUI/ConsoleUI.csproj",
+        "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
         "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-        "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/ConsoleUI/obj/",
+        "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/ConsoleUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -104,14 +104,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Business/Business.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Business/Business.csproj"
               },
-              "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj"
               },
-              "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj"
               }
             }
           }
@@ -141,18 +141,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj": {
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj",
+        "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj",
+        "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj",
         "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-        "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/Core/obj/",
+        "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -179,6 +179,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -200,18 +208,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj": {
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-        "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/DataAccess/obj/",
+        "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -226,11 +234,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj"
               },
-              "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj"
               }
             }
           }
@@ -270,18 +278,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj": {
+    "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/Entities.csproj",
+        "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/Entities.csproj",
         "packagesPath": "/Users/kubranuryavuz/.nuget/packages/",
-        "outputPath": "/Users/kubranuryavuz/Projects/FinalProject/Entities/obj/",
+        "outputPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kubranuryavuz/.nuget/NuGet/NuGet.Config"
@@ -296,8 +304,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj": {
-                "projectPath": "/Users/kubranuryavuz/Projects/FinalProject/Core/Core.csproj"
+              "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj": {
+                "projectPath": "/Users/kubranuryavuz/Desktop/MyFinalProject/Core/Core.csproj"
               }
             }
           }
@@ -327,7 +335,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     }
